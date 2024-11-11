@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSEC_SUCRE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ITSEC SUCRE</h1>
+        <nav>
+            <ul>
+                <div class="menu">
+                    <div class="menu1">
+                        <li><a href="#inicio">Inicio</a></li>
+                    </div>
+                    <div class="menu1">
+                        <li><a href="#sistemas-informaticos">Sistemas Informáticos</a></li>  
+                    </div>
+                    <div class="menu1">
+                        <li><a href="#motivo-eleccion">Motivo de Elección</a></li>
+                    </div>
+                    <div class="menu1">
+                        <li><a href="#contacto">Contacto</a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="menu1"><h2>Inicio</h2></div>
+            <center>
+                <img src="Itsec-sucre.jpg" alt="Logo del instituto Itsec Sucre">
+            </center>
+            <article>
+                <h3>Misión, Visión y Ubicación</h3>
+                <p><span style="background-color: chartreuse;">Misión:</span> El Instituto Técnico Superior de Educación Comercial Sucre “ITSEC SUCRE” busca formar profesionales técnicos y tecnológicos, competitivos y emprendedores, con valores éticos y humanos al servicio de la sociedad, para mejorar la calidad de vida y afrontar los grandes desafíos del siglo XXI. </p>
+                <p><span style="background-color: chartreuse;">Visión:</span> Ser un Instituto técnico tecnológico inclusivo que busca consolidarse como referente a nivel nacional, con docentes idóneos y alta vocación de servicio, formando profesionales integrales con capacidades productivas, de emprendimiento e innovación, a partir del modelo de educación Sociocomunitario productivo.</p>
+                <p><span style="background-color: chartreuse;">Ubicación:</span> Calle Manuel Melean 140</p>
+                <p>Visite la página del Instituto <a target="_blank" href="https://www.itsecsucre.edu.bo/institucional.html">ITSEC SUCRE</a></p>
+            </article>
+        </section>
+        <section id="sistemas-informaticos">
+            <div class="menu1"><h2>Sistemas Informáticos</h2></div>
+            <article>
+                <h3>Información Básica</h3>
+                <p>Descripción básica de la carrera de Sistemas Informáticos:</p>
+                <p>El Técnico Superior en Sistemas Informáticos, brinda servicios profesionales en todo campo de manejo y tratamiento de la información. Crea sistemas informáticos para instituciones públicas y privadas, de acuerdo a las exigencias de los usuarios. </p>
+                   <p>- Ensambla equipos de computación. </p> 
+                  <p>- Realiza mantenimiento preventivo y correctivo de hardware.</p>  
+                <div style="display: flex;">
+                    <div>
+                        <center><img src="Sistemas-Informaticos.jpg" alt="Logo de la carrera de sistemas informáticos"></center>
+                    </div>
+                    <div>
+                        <center><img src="estudiantes.jpg" alt="Foto de los estudiantes de sistemas informaticos"></center>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="motivo-eleccion">
+            <div class="menu1"><h2>Motivo de Elección</h2></div>
+            <article>
+                <h3>Razones Personales</h3>
+                <p>Los motivos por el cual decidi estudiar esta carrera es por ampliar mis conocimientos, viendo que hay grandes accesos de oportunidades de trabajo de trabajo.Tambien por que me apasionan las computadoras y la programacion. </p>
+            </article>
+        </section>
+        <section id="contacto">
+            <div class="menu1"><h2>Contacto</h2></div>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" onclick="envio()">Enviar</button>
+            </form>
+        </section>
+        <br>
+        <center><button onclick="tema()">Cambiar Tema</button></center>
+    </main>
+    <footer>
+        <p>&copy; 2024 ITSEC SUCRE</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
